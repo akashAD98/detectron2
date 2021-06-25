@@ -54,7 +54,7 @@ from torch.nn.parallel import DistributedDataParallel
 
 
 
-import ..data.transforms as T
+from ..data import transforms as T
 from ..checkpoint import DetectionCheckpointer
 from ..config import CfgNode, LazyConfig
 from ..data import (
