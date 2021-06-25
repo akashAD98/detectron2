@@ -3,12 +3,12 @@ import io
 import numpy as np
 import torch
 
-from detectron2 import model_zoo
-from detectron2.data import DatasetCatalog
-from detectron2.data.detection_utils import read_image
-from detectron2.modeling import build_model
-from detectron2.structures import Boxes, Instances, ROIMasks
-from detectron2.utils.file_io import PathManager
+import model_zoo
+from ..data import DatasetCatalog
+from ..data.detection_utils import read_image
+from ..modeling import build_model
+from ..structures import Boxes, Instances, ROIMasks
+from ..utils.file_io import PathManager
 
 
 """
