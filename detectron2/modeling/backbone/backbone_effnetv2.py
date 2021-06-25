@@ -10,7 +10,7 @@ import torch.nn.functional as F
 from ...modeling import BACKBONE_REGISTRY, Backbone, FPN 
 from ...layers import ShapeSpec
 
-from .efficient_net_v2 import EfficientNetV2
+#from .efficient_net_v2 import EfficientNetV2
 #from ..layers import ConvBNA, FusedMBConv, MBConv
 from ...config.detectron2_config import get_cfg
 
