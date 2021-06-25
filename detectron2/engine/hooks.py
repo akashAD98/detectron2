@@ -22,7 +22,7 @@ from fvcore.nn.precise_bn import get_bn_modules, update_bn_stats
 
 
 
-import ..utils.comm as comm
+from ..utils import  comm
 from ..evaluation.testing import flatten_results_dict
 from ..solver import LRMultiplier
 from ..utils.events import EventStorage, EventWriter
