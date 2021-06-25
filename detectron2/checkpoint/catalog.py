@@ -1,8 +1,8 @@
 # Copyright (c) Facebook, Inc. and its affiliates.
 import logging
 
-from detectron2.utils.file_io import PathHandler, PathManager
-
+#from detectron2.utils.file_io import PathHandler, PathManager
+from ..utils.file_io import PathHandler, PathManager
 
 class ModelCatalog(object):
     """
