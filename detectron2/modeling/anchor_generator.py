@@ -5,10 +5,10 @@ from typing import List
 import torch
 from torch import nn
 
-from detectron2.config import configurable
-from detectron2.layers import ShapeSpec
-from detectron2.structures import Boxes, RotatedBoxes
-from detectron2.utils.registry import Registry
+from ..config import configurable
+from ..layers import ShapeSpec
+from ..structures import Boxes, RotatedBoxes
+from ..utils.registry import Registry
 
 ANCHOR_GENERATOR_REGISTRY = Registry("ANCHOR_GENERATOR")
 ANCHOR_GENERATOR_REGISTRY.__doc__ = """
