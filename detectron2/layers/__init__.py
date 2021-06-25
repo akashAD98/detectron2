@@ -19,4 +19,12 @@ from .wrappers import (
 from .blocks import CNNBlockBase, DepthwiseSeparableConv2d
 from .aspp import ASPP
 
+
+
+##
+from .conv import ConvBNA  # N
+from .mbconv import MBConv, FusedMBConv  # 
+from .sequeeze_excitation import SqueezeExcitation  #
+##
+
 __all__ = [k for k in globals().keys() if not k.startswith("_")]
