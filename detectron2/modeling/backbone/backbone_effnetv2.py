@@ -8,7 +8,7 @@ import torch.nn.functional as F
 # from detectron2.modeling import BACKBONE_REGISTRY, Backbone, FPN, ShapeSpec
 
 from ...modeling import BACKBONE_REGISTRY, Backbone, FPN 
-
+from ...layers import ShapeSpec
 
 from .efficient_net_v2 import EfficientNetV2
 #from ..layers import ConvBNA, FusedMBConv, MBConv
