@@ -8,8 +8,8 @@ from torch.autograd.function import once_differentiable
 from torch.nn.modules.utils import _pair
 from torchvision.ops import deform_conv2d
 
-from detectron2 import _C
-
+#from detectron2 import _C
+from ... import _C
 from .wrappers import _NewEmptyTensorOp
 
 
