@@ -13,5 +13,8 @@ from .resnet import (
     BottleneckBlock,
 )
 
+# efficientnetv2
+from .backbone_effnetv2 import build_effnet_backbone,EfficientNetV2,LastLevelMaxPool,build_effnet_fpn_backbone 
+
 __all__ = [k for k in globals().keys() if not k.startswith("_")]
 # TODO can expose more resnet blocks after careful consideration
