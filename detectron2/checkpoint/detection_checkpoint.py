@@ -6,9 +6,15 @@ import torch
 from fvcore.common.checkpoint import Checkpointer
 from torch.nn.parallel import DistributedDataParallel
 
-import detectron2.utils.comm as comm
-from detectron2.utils.env import TORCH_VERSION
-from detectron2.utils.file_io import PathManager
+#import detectron2.utils.comm as comm
+#from detectron2.utils.env import TORCH_VERSION
+#from detectron2.utils.file_io import PathManager
+
+
+from ..utils  import comm
+from ..utils.env import TORCH_VERSION
+from ..utils.file_io import PathManager
+
 
 from .c2_model_loading import align_and_update_state_dicts
 
