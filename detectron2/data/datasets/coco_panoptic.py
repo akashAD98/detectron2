@@ -6,6 +6,10 @@ import os
 from detectron2.data import DatasetCatalog, MetadataCatalog
 from detectron2.utils.file_io import PathManager
 
+
+from ...data import DatasetCatalog, MetadataCatalog
+from ...utils.file_io import PathManager
+
 from .coco import load_coco_json, load_sem_seg
 
 __all__ = ["register_coco_panoptic", "register_coco_panoptic_separated"]
