@@ -5,11 +5,19 @@ from typing import Dict, List, Optional, Tuple
 import torch
 from torch import nn
 
-from detectron2.config import configurable
-from detectron2.data.detection_utils import convert_image_to_rgb
-from detectron2.structures import ImageList, Instances
-from detectron2.utils.events import get_event_storage
-from detectron2.utils.logger import log_first_n
+# from detectron2.config import configurable
+# from detectron2.data.detection_utils import convert_image_to_rgb
+# from detectron2.structures import ImageList, Instances
+# from detectron2.utils.events import get_event_storage
+# from detectron2.utils.logger import log_first_n
+
+
+
+from ...config import configurable
+from ...data.detection_utils import convert_image_to_rgb
+from ...structures import ImageList, Instances
+from ...utils.events import get_event_storage
+from ...utils.logger import log_first_n
 
 from ..backbone import Backbone, build_backbone
 from ..postprocessing import detector_postprocess
