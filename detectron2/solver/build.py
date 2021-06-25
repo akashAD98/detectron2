@@ -7,7 +7,9 @@ from typing import Any, Callable, Dict, Iterable, List, Optional, Set, Type, Uni
 import torch
 from fvcore.common.param_scheduler import CosineParamScheduler, MultiStepParamScheduler
 
-from detectron2.config import CfgNode
+#from detectron2.config import CfgNode
+
+from ..config import CfgNode
 
 from .lr_scheduler import LRMultiplier, WarmupParamScheduler
 
