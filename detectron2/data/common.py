@@ -8,7 +8,8 @@ import random
 import torch.utils.data as data
 from torch.utils.data.sampler import Sampler
 
-from detectron2.utils.serialize import PicklableWrapper
+#from detectron2.utils.serialize import PicklableWrapper
+from ..utils.serialize import PicklableWrapper
 
 __all__ = ["MapDataset", "DatasetFromList", "AspectRatioGroupedDataset", "ToIterableDataset"]
 
