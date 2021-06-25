@@ -4,7 +4,8 @@ from typing import Any, List, Tuple, Union
 import torch
 from torch.nn import functional as F
 
-from detectron2.utils.env import TORCH_VERSION
+#from detectron2.utils.env import TORCH_VERSION
+from ..utils.env import TORCH_VERSION
 
 if TORCH_VERSION < (1, 8):
 
