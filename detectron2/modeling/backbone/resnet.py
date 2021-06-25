@@ -5,7 +5,19 @@ import torch
 import torch.nn.functional as F
 from torch import nn
 
-from detectron2.layers import (
+# from detectron2.layers import (
+#     CNNBlockBase,
+#     Conv2d,
+#     DeformConv,
+#     ModulatedDeformConv,
+#     ShapeSpec,
+#     get_norm,
+# )
+
+
+
+
+from ..layers import (
     CNNBlockBase,
     Conv2d,
     DeformConv,
