@@ -5,7 +5,8 @@ import torch
 from PIL import Image
 from torch.nn import functional as F
 
-from detectron2.structures import Boxes
+#from detectron2.structures import Boxes
+from ..structures import Boxes
 
 __all__ = ["paste_masks_in_image"]
 
