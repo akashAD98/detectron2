@@ -5,8 +5,8 @@ import torch
 from torch import nn
 from torchvision.ops import RoIPool
 
-from detectron2.layers import ROIAlign, ROIAlignRotated, cat, nonzero_tuple
-from detectron2.structures import Boxes
+from ..layers import ROIAlign, ROIAlignRotated, cat, nonzero_tuple
+from ..structures import Boxes
 
 """
 To export ROIPooler to torchscript, in this file, variables that should be annotated with
