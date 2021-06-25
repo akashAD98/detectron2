@@ -6,11 +6,20 @@ from fvcore.nn import giou_loss, smooth_l1_loss
 from torch import nn
 from torch.nn import functional as F
 
-from detectron2.config import configurable
-from detectron2.layers import ShapeSpec, batched_nms, cat, cross_entropy, nonzero_tuple
-from detectron2.modeling.box_regression import Box2BoxTransform
-from detectron2.structures import Boxes, Instances
-from detectron2.utils.events import get_event_storage
+# from detectron2.config import configurable
+# from detectron2.layers import ShapeSpec, batched_nms, cat, cross_entropy, nonzero_tuple
+# from detectron2.modeling.box_regression import Box2BoxTransform
+# from detectron2.structures import Boxes, Instances
+# from detectron2.utils.events import get_event_storage
+
+
+from ...config import configurable
+from ...layers import ShapeSpec, batched_nms, cat, cross_entropy, nonzero_tuple
+from ...modeling.box_regression import Box2BoxTransform
+from ...structures import Boxes, Instances
+from ...utils.events import get_event_storage
+
+
 
 __all__ = ["fast_rcnn_inference", "FastRCNNOutputLayers"]
 
