@@ -12,7 +12,7 @@ from ...layers import ShapeSpec
 
 from .efficient_net_v2 import EfficientNetV2
 #from ..layers import ConvBNA, FusedMBConv, MBConv
-from ..config.detectron2_config import get_cfg
+from ...config.detectron2_config import get_cfg
 
 ##
 from ...layers import ConvBNA,MBConv,FusedMBConv
